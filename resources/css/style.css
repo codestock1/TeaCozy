@@ -38,7 +38,7 @@ a {
   text-decoration: underline;
   }
 
-/* Mission Content*/
+/* Mission Content */
 
 .content-1 {
   display: flex;
@@ -113,3 +113,15 @@ a {
       flex-wrap: wrap;
       justify-content: center;
     }
+
+  /* Contact */
+
+   .contact {
+     height: 200px;
+   }
+
+   footer {
+     display: flex;
+     text-align: left;
+     margin-left: 20px;
+   }
