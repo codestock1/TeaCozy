@@ -1,5 +1,5 @@
 body{
-  background: black;
+  background-color: black;
   font-family: "Helvectica", sans-serif;
   font-size: 22px;
   color: seashell;
@@ -18,7 +18,7 @@ header {
   border-bottom: 1px solid seashell;
   align-items: center;
   z-index: 1;
-  background: black;
+  background-color: black;
   }
 
 .logo {
@@ -64,7 +64,6 @@ a {
      margin: 0 auto;
      flex-direction: column;
      justify-content: center;
-     padding-bottom: 10px;
      }
 
 /* Tea Menu Items */
@@ -75,9 +74,9 @@ a {
   justify-content: center;
 }
 
-.tea, h4{
+.tea, .tea > h4 {
   margin: 0;
-}
+  }
 
 .tea-image {
   height: 200px;
@@ -87,3 +86,30 @@ a {
   padding-bottom: 10px;
   padding-top: 10px;
   }
+
+  /* Locations */
+
+  .content-3 {
+    display: flex;
+    margin: 40px auto;
+    flex-direction: column;
+    justify-content: center;
+    width: 1200px;
+    height: 500px;
+    background-image:
+    url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  }
+
+  .location {
+      width: 300px;
+      background-color: black;
+      margin: 20px;
+      padding: 15px;
+      opacity: 1;
+      }
+
+    .franchise {
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
